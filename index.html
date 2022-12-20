@@ -1,0 +1,100 @@
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Some Fluff and Stuff</title>
+<style>
+    body {
+        background-color: #c8b18b;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 90rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+        margin: 0 1rem;
+        border-bottom: 1px solid #a99066 ;
+    }
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap:0.2rem;
+        justify-content: center;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .card {
+        background-color: #efd7b2;
+        border: thick double #a99066;
+        width: 20rem;
+        height: 6rem;
+    }
+    .card img {
+        float: left;
+        height: 6rem;
+    }
+    .card h3 {
+        margin: 0px;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .card p {
+        margin: 0.3rem 1rem 0 7rem;
+        font-size: 0.8rem;
+        text-align: left;
+        line-height: 1.1;
+    }
+    .card:hover {
+        background-color: #f4d284;
+    }
+</style>
+<body>
+
+<h1>Some Fluff and Stuff</h1>
+
+<h2>Subsites</h2>
+<div class="card-container">
+
+    <a href="https://blog.yiru.me" hidden><div class="card">
+        <img src="./thumbnail/blog.png">
+        <h3>Pseudoblog</h3>
+        <p>It's not really a blog. Posts aren't organized in chronological order, and are often posted before being finished.</p>
+    </div></a>
+
+    <a href="https://g.yiru.me"><div class="card">
+        <img src="./thumbnail/games.png">
+        <h3>Game Rules and Tools</h3>
+        <p>Brief rules references for card games and board games, along with some associated tools.</p>
+    </div></a>
+</div>
+
+<h2>Doodads</h2>
+
+<div class="card-container">
+    <a href="./xkcd2712"><div class="card">
+        <img src="./thumbnail/xkcd2712.png">
+        <h3>xkcd 2712</h3>
+        <p>A zoomable static version of the space minigame from xkcd 2712: Gravity</p>
+    </div></a>
+
+    <a href="./aerb"><div class="card">
+        <img src="./thumbnail/aerb.png">
+        <h3>Map of Aerb</h3>
+        <p>A tessellating map of Aerb, from <i>Worth the Candle</i>, by Alexander Wales</p>
+    </div></a>
+
+    <a href="https://www.rmwinslow.com/tones/"><div class="card">
+        <img src="./thumbnail/tones.png">
+        <h3>Pure Tones</h3>
+        <p>A little musical toy, where each key on the keyboard is made to play a tone using the Web Audio API's oscillator objects.</p>
+    </div></a>
+</div>
+
+</body>
